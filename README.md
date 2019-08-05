@@ -59,3 +59,4 @@ We can run the Monitors in both local and new relic Synthetics
 1. Add your own npm cmd like ["test:{name}": "gulp test:e2e --tags '@{Name}'"](https://github.com/flyHe/UI_H5_Test/blob/master/package.json#L7) in [package.json](https://github.com/flyHe/UI_H5_Test/blob/master/package.json)
 2. Add your own feature file in [features](https://github.com/flyHe/UI_H5_Test/blob/master/tests/features) or overwrite feature file [search.feature](https://github.com/flyHe/UI_H5_Test/blob/master/tests/features/search.feature)
 3. Add your own steps and pages in folder [pages](https://github.com/flyHe/UI_H5_Test/tree/master/tests/pages) and [steps](https://github.com/flyHe/UI_H5_Test/tree/master/tests/steps)
+4. Custom your own email information in [config](https://github.com/flyHe/UI_H5_Test/blob/master/gulp-tasks/config.js#L7)
